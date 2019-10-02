@@ -11,4 +11,4 @@ for line in $filelines ; do
 	google-chrome-stable --headless --window-size=1024,768 --hide-scrollbars --screenshot=$directory/${HOST}.png http://${HOST}
 	echo Saved $directory/${HOST}.png
 done
-echo Finished $filename
+echo Finished $filename And saved screenshots to $directory
