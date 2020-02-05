@@ -12,3 +12,4 @@ for line in $filelines ; do
 	echo Saved $directory/${HOST}.png
 done
 echo Finished $filename
+notify-send Chrome Shot finished $filename
